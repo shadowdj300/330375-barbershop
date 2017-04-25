@@ -1,0 +1,26 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", Sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.features-name {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.index-content{
+  color: black;
+}
+
+.index-content-title {
+  font-size: 30px;
+  line-height: 42px;
+}
