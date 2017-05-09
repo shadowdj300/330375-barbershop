@@ -7,28 +7,34 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
           <nav class="main-navigation">
             <ul>
               <li>
-                <a href="#">Информация</a>
+                <a href="Index.html">
+                  <span class="header-menu-active">Главная
+                  </span>
+                </a>
               </li>
               <li>
-                <a href="#">Новости</a>
+                <a href="Index.html">Информация</a>
               </li>
               <li>
-                <a href="#">Прайс-лист</a>
+                <a href="Index.html">Новости</a>
               </li>
               <li>
-                <a href="#">Магазин</a>
+                <a href="Index.html">Прайс-лист</a>
               </li>
               <li>
-                <a href="#">Контакты</a>
+                <a href="Catalog.html">Магазин</a>
+              </li>
+              <li>
+                <a href="Index.html">Контакты</a>
               </li>
             </ul>
           </nav>
           <div class="user-block">
-            <a class="login" href="#">Вход</a>
+            <a class="user-block-login" href="#">Вход</a>
           </div>
       </div>
     </header>
@@ -37,24 +43,24 @@
         <img src="img/borodinski-logo.png" width="368" height="204" alt="Барбершоп
         «Бородинский»">
       </div>
-      <section class="features">
+      <section class="features clearfix">
         <div class="features-item">
-          <b class="features-name>">Быстро</b>
+          <div class="features-name">Быстро</div>
           <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы —
-            счастливый обладатель стильной стрижки-минутки!</p>
+            счастливый обладатель стильной стрижки-минутки!
         </div>
         <div class="features-item">
-          <b class="features-name">Круто</b>
+          <div class="features-name">Круто</div>
           <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола
             или кино! Во всяком случае внешне.</p>
         </div>
         <div class="features-item">
-          <b class="features-name">Дорого</b>
-          <p>Наши мастера — профессионалы своего дела и не могут стоить дешево.
+          <div class="features-name">Дорого</div>
+          <p>Наши мастера — профессионалы своего дела и не могут стоить дешево.
             К тому же, разве цена не дает определенный статус?</p>
         </div>
       </section>
-      <div class="index-content">
+      <div class="index-content clearfix">
         <div class="index-content-left">
           <h2 class="index-content-title">Новости</h2>
           <ul class="news-preview">
@@ -69,6 +75,7 @@
               <time datetime="2016-01-18">18 января</time>
             </li>
           </ul>
+          <a href="#" class="btn">Все новости</a>
         </div>
         <div class="index-content-right">
           <h2 class="index-content-title">Фотогалерея</h2>
@@ -81,7 +88,7 @@
           </div>
         </div>
       </div>
-      <div class="index-content">
+      <div class="index-content clearfix">
         <div class="index-content-left">
           <h2 class="index-content-title">Контактная информация</h2>
           <p>
@@ -94,25 +101,27 @@
             пн — пт: с 10:00 до 22:00<br>
             сб — вс: с 10:00 до 19:00
           </p>
-          <a class="btn" href="#">Как проехать</a>
-          <a class="btn" href="#">Обратная связь</a>
+          <a class="btn btn-how-to" href="#">Как проехать</a>
+          <a class="btn btn-feedback" href="#">Обратная связь</a>
         </div>
         <div class="index-content-right">
           <h2 class="index-content-title">Записаться</h2>
           <p>Укажите желаемую дату и время и мы свяжемся с вами для
             подтверждения брони</p>
             <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+              <fieldset>
               <input type="text" name="date" value="" placeholder="Дата">
               <input type="text" name="time" value="" placeholder="Время">
               <input type="text" name="name" value="" placeholder="Ваше имя">
-              <input type="tel" name="phone" value="" placeholder="Телефон">
-              <button class="btn" type="submit">Отправить</button>
+              <input type="text" name="phone" value="" placeholder="Телефон">
+              </fieldset>
+              <button class="btn btn-submit">Отправить</button>
             </form>
         </div>
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -127,7 +136,7 @@
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          <a class="btn btn-academy" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
       </div>
     </footer>
