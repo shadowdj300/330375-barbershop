@@ -621,3 +621,74 @@ td a:hover {
   background-color: #663d15;
   color: #ffffff;
 }
+
+/* Страница товара */
+
+.item-gallery {
+  width: 460px;
+  float: left;
+}
+
+.item-desc {
+  width: 379px;
+  float: right;
+}
+
+.item-gallery-content {
+  margin: 0;
+  padding: 0;
+  width: 460px;
+  height: 498px;
+  box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+  margin-bottom: 21px;
+}
+
+.gallery-preview {
+  margin: 0;
+  margin-right: 15px;
+  width: 140px;
+  height: 149px;
+  box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+}
+
+.gallery-preview:last-child {
+  margin-right: 0;
+}
+
+.item-desc {
+  color: #000000;
+}
+
+.item-stock {
+  padding:0;
+  margin:0;
+  width: 250px;
+}
+
+.item-vendor {
+  color: #aeaeae;
+}
+
+.item-buy {
+  margin-top: 41px;
+}
+
+.item-consist {
+  margin-top: 67px;
+}
+
+.item-element {
+  margin-top: 38px;
+}
+
+.item-element li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.item-element li:before {
+  width: 10px;
+  height: 10px;
+  content: url(../img/shape-1-small.svg);
+  padding-right: 9px;
+}
